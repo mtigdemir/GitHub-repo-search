@@ -1,3 +1,5 @@
+https://travis-ci.org/mtigdemir/GitHub-repo-search.svg?branch=master
+
 How to run CLI
 
 ```
