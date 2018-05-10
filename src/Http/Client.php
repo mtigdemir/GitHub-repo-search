@@ -21,6 +21,10 @@ class Client
 
     public function get($uri, array $params)
     {
-        return $this->client->get($uri, ['query' => $params])->getBody();
+        if (count($params) > 0) {
+            $uri .= '?'.http_build_query($params);
+        }
+
+        return $this->client->get($uri)->getBody();
     }
 }
