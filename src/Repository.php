@@ -21,9 +21,9 @@ class Repository
         $this->client = $client;
     }
 
-    public function search($query)
+    public function search($query, $perPage = 1000)
     {
-        return $this->client->get('search/repositories', ['q' => $query]);
+        return $this->client->get('search/repositories', ['q' => $query, 'per_page' => $perPage]);
     }
 
     public function searchIn($where, $searchData)
