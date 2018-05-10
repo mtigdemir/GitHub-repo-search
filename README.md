@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mtigdemir/GitHub-repo-search.svg?branch=master)](https://travis-ci.org/mtigdemir/GitHub-repo-search)
+
 How to run CLI
 
 ```
